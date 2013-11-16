@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>JspServletsStudy</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginPage</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/loginPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegistrationPage</servlet-name>
+    <jsp-file>/register.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationPage</servlet-name>
+    <url-pattern>/registrationPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>User</servlet-name>
+    <jsp-file>/user.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/userPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SuccessPage</servlet-name>
+    <jsp-file>/success.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SuccessPage</servlet-name>
+    <url-pattern>/successPage</url-pattern>
+  </servlet-mapping>
+</web-app>
